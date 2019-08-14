@@ -11,35 +11,40 @@ import json
 import some_complicated_machine_learning_algorithm as machine_learning
 
 # Creates a news aricle and saves it to the specified file name.
-def make_article(config):
+def make_articles(configs):
 
-    # Create a blank article, an item that we can put our text onto,
-    #  eg. the final news article
-    article_file = open_file(config["file_name"])
+    # Perform the article creation for every set of parameters specifed. This is
+    #  typically the bread and butter of any automation script: the ability to
+    #  perform the task on a LARGE set of data.
+    for config in configs:
 
-    # Attach the thumbnail image at the specified url
-    attach_thumbnail_image(config["thumbnail_picture"], article_file)
+        # Create a blank article, an item that we can put our text onto,
+        #  eg. the final news article
+        article_file = open_file(config["file_name"])
 
-    # Handle the headline, evaulate and write the headline to the article
-    #  document
-    handle_headline(config["title"], article_file)
+        # Attach the thumbnail image at the specified url
+        attach_thumbnail_image(config["thumbnail_picture"], article_file)
 
-    # Handle the subtitle
-    handle_subtitle(config["subtitle"], article_file)
+        # Handle the headline, evaulate and write the headline to the article
+        #  document
+        handle_headline(config["title"], article_file)
 
-    # Create 1 paragraph outlining what the new information is,
-    #  and what source it came from.
-    handle_source(config["source"], article_file)
+        # Handle the subtitle
+        handle_subtitle(config["subtitle"], article_file)
 
-    # Create paragraphs (up to 3) detailing previous knowledge about the product
-    #  based on other articles
-    handle_previous_knowledgebase(config["previous_knowledgebase"], \
-        article_file)
+        # Create 1 paragraph outlining what the new information is,
+        #  and what source it came from.
+        handle_source(config["source"], article_file)
 
-    # Create 1 paragraph outlining when we can expect future information to be
-    #  released/uncovered regarding this product
-    handle_future_expected_information(config["future_expected_information"], \
-        article_file)
+        # Create paragraphs (up to 3) detailing previous knowledge about the product
+        #  based on other articles
+        handle_previous_knowledgebase(config["previous_knowledgebase"], \
+            article_file)
+
+        # Create 1 paragraph outlining when we can expect future information to be
+        #  released/uncovered regarding this product
+        handle_future_expected_information(config["future_expected_information"], \
+            article_file)
 
 ################## HELPER FUNCTIONS ###################
 
@@ -142,4 +147,4 @@ def get_config():
 
 if __name__ == "__main__":
     config = get_config()
-    make_article(config)
+    make_articles(config)

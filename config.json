@@ -1,35 +1,37 @@
 {
-  "file_name" : "lg_screen_reveal.pdf",
-  "thumbnail_picture" : "https://cdn.vox-cdn.com/thumbor/sO969AGYJhReYuhx_p8U38C8Xng=/0x129:2500x1535/560x315/filters:format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/64923027/LG_V50_ThinQ_with_Dual_Screen_03.0.jpg",
-  "headline" : "LG teases a triple-screen smartphone for September reveal",
-  "subtitle" : "The device is due to be announced on September 6th",
-  "source" : {
-    "type" : "video",
-    "manual_description" : "",
-    "url" : "https://youtu.be/7YguzVLFYd4"
-  },
-  "previous_knowledgebase" : [
-    {
-      "url" : "https://www.theverge.com/circuitbreaker/2019/2/24/18236055/lg-v50-thinq-5g-features-specs-mwc-2019-v40-update",
-      "manual_analysis" : "This detachable accessory — which was never
-                          released in the US — didn’t have the additional screen
-                          on its exterior, which appears to be new for this version."
+  [
+    "file_name" : "lg_screen_reveal.pdf",
+    "thumbnail_picture" : "https://cdn.vox-cdn.com/thumbor/sO969AGYJhReYuhx_p8U38C8Xng=/0x129:2500x1535/560x315/filters:format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/64923027/LG_V50_ThinQ_with_Dual_Screen_03.0.jpg",
+    "headline" : "LG teases a triple-screen smartphone for September reveal",
+    "subtitle" : "The device is due to be announced on September 6th",
+    "source" : {
+      "type" : "video",
+      "manual_description" : "",
+      "url" : "https://youtu.be/7YguzVLFYd4"
     },
-    {
-      "url" : "https://www.androidcentral.com/lg-v60-thinq-folding-dual-screen-will-launch-ifa-2019",
-      "manual_analysis" : "**we don’t know too much more about what LG is preparing to announce at the show.**"
-    },
-    {
-      "url" : "https://www.zdnet.com/article/lg-to-unveil-v60-thinq-smartphone-at-ifa-2019/",
-      "manual_analysis" : "We’re also curious about whether there’s a
-                          possibility that this could simply be a new accessory
-                          for LG’s existing V50 ThinQ."
-    }
-  ],
-  "future_expected_information" : {
-    "type" : "press_conference",
-    "name" : "LG IFA 2019",
-    "manual_description" : "",
-    "date" : "09/08/2019 04:00 EDT"
-  }
+    "previous_knowledgebase" : [
+      {
+        "url" : "https://www.theverge.com/circuitbreaker/2019/2/24/18236055/lg-v50-thinq-5g-features-specs-mwc-2019-v40-update",
+        "manual_analysis" : "This detachable accessory — which was never
+                            released in the US — didn’t have the additional screen
+                            on its exterior, which appears to be new for this version."
+      },
+      {
+        "url" : "https://www.androidcentral.com/lg-v60-thinq-folding-dual-screen-will-launch-ifa-2019",
+        "manual_analysis" : "**we don’t know too much more about what LG is preparing to announce at the show.**"
+      },
+      {
+        "url" : "https://www.zdnet.com/article/lg-to-unveil-v60-thinq-smartphone-at-ifa-2019/",
+        "manual_analysis" : "We’re also curious about whether there’s a
+                            possibility that this could simply be a new accessory
+                            for LG’s existing V50 ThinQ."
+      }
+    ],
+    "future_expected_information" : {
+      "type" : "press_conference",
+      "name" : "LG IFA 2019",
+      "manual_description" : "",
+      "date" : "09/08/2019 04:00 EDT"
+    }  
+  ]
 }

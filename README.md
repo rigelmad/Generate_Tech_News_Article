@@ -1,4 +1,4 @@
-# Generate Tech News Article
+# README: Generate Tech News Article
 
 ## Purpose
 This is a utility used to auto-generate a tech news article based on
@@ -7,15 +7,15 @@ specified parameters. The user should specify parameters in the `config.json` fi
 ## Documentation
 ### config.json
 #### Configuration Paramters
-**file_name**: The desired file name for this article
+**1. file_name**: The desired file name for this article
 
-**thumbnail_picture**: The URL of the picture to appear on a website thumbnail.
+**2. thumbnail_picture**: The URL of the picture to appear on a website thumbnail.
 
-**headline**: The headline of the article, keep between 5-12 words. Mention the name of a tech company or service for added attention.
+**3. headline**: The headline of the article, keep between 5-12 words. Mention the name of a tech company or service for added attention.
 
-**subtitle**: The subtitle, keep to one sentence. Reader should be able to understand the crux of the article by now.
+**4. subtitle**: The subtitle, keep to one sentence. Reader should be able to understand the crux of the article by now.
 
-**source**: The source of the information being addressed.
+**5. source**: The source of the information being addressed.
 - In this release, the supported `type`s are:
 ```
 "video",
@@ -28,12 +28,12 @@ specified parameters. The user should specify parameters in the `config.json` fi
   - Sources of `"type" : "other"` must then be given a `manual_description` field to describe what the information is relaying.
 - The `url` field indicates the source of the information, and will be [hyperlinked](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links).
 
-**previous_knowledgebase**: Articles that detail any previous information that is known about this product.
+**6. previous_knowledgebase**: Articles that detail any previous information that is known about this product.
 - The `url` tag is the location of the information, a Machine Learning algorithm will go through and draw analyses from each of the URLs specified, centering upon the topic of _this_ article.
 - Any additional information can be specified in the `manual_analysis` portion, and will be fed into the creation of the description.
 - A max of 3 paragraphs will be created to keep article length appropriate.
 
-**future_expected_information**: When can we expect more information about this product, and through what medium?
+**7. future_expected_information**: When can we expect more information about this product, and through what medium?
 - In this version, supported `type`s are:
 ```
 "press_conference",
