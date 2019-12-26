@@ -1,5 +1,11 @@
 # README: Generate Tech News Article
 
+## Background
+
+**DISCLAIMER:** This package _does not compile_. It is not meant to compile.
+
+This package was created as an assignment for ENGW3302 - Advanced Writing in the Disciplines at Northeastern University, Summer 2019. The prompt for this assignment was to perform a double genre analysis; analyze one genre and report your findings in a different genre. Here, I analyzed the **consumer tech news article** (ie. TechRadar, CNET, The Verge news article) and reported my findings in the form of a Python package. Here, I highlight the objective and repetitive nature of these news articles by building a package meant to automatically generate them. By configuring a list of parameters (specified in JSON format), a Python script (which, again, doesn't _actually_ run) will analyze this information and use NLP to "fill in the gaps" to create a publishable article.
+
 ## Purpose
 This is a utility used to auto-generate a tech news article based on
 specified parameters. The user should specify parameters in the `config.json` file, and then use the `generate_article.py` script to generate a coherent news article from the specified parameters.
