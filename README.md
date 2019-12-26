@@ -54,4 +54,4 @@ specified parameters. The user should specify parameters in the `config.json` fi
 
 ### generate_article.py
 #### Methodology
-Run this script after specifying the parameters in `config.json` in order to create a news article. The script uses [INSERT COMPLICATED MACHINE LEARNING ALGORITHM NAME HERE] to parse information from sources, and uses natural language processing provided by the Google Home API to generate a coherent article.
+Run this script after specifying the parameters in `config.json` in order to create a news article. The script uses [INSERT NLP ALGORITHM NAME HERE] to parse information from sources, and uses natural language processing provided by the Google Home API to generate a coherent article.
